@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f4f0">
+  <meta name="description" content="Car Time 87 — детейлінг студія. Хімчистка інтер’єру, полірування кузова, захисні покриття та відновлення оптики. Догляд, який відчувається в деталях.">
+  <title>Car Time 87 — Догляд, який відчувається в деталях</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/logo.svg">
+  <link rel="preload" as="image" href="./assets/hero-porsche.png" fetchpriority="high">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <main>
+    <section class="hero" aria-label="Детейлінг студія Car Time 87" aria-roledescription="карусель">
+      <div class="hero-images">
+        <img class="hero-image is-active" src="./assets/hero-porsche.png" alt="Сірий Porsche у світлій детейлінг студії" fetchpriority="high" width="1672" height="941">
+        <img class="hero-image" src="./assets/hero-bmw.png" alt="Чорний BMW з відполірованим кузовом" width="1672" height="941">
+        <img class="hero-image" src="./assets/hero-audi.png" alt="Audi після догляду в детейлінг студії" width="1672" height="941">
+      </div>
+      <header class="header">
+        <a href="#" class="brand" aria-label="Car Time 87 — на головну"><img src="./assets/logo.svg" alt="Car Time 87" width="170" height="96"></a>
+        <nav class="desktop-nav" aria-label="Основна навігація">
+          <a href="#services">Послуги</a>
+          <button data-section="Наші роботи">Наші роботи</button>
+          <button data-section="Про нас">Про нас</button>
+          <button data-section="Корисне">Корисне</button>
+          <button data-section="Відгуки">Відгуки</button>
+          <button data-contact>Контакти</button>
+        </nav>
+        <button class="pill header-book" data-contact>Записатися <svg><use href="#arrow"/></svg></button>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Відкрити меню"><span></span><span></span></button>
+      </header>
+      <nav class="mobile-nav" id="mobile-nav" aria-label="Мобільна навігація" hidden>
+        <a href="#services">Послуги <span>↗</span></a>
+        <button data-section="Наші роботи">Наші роботи <span>↗</span></button>
+        <button data-section="Про нас">Про нас <span>↗</span></button>
+        <button data-section="Корисне">Корисне <span>↗</span></button>
+        <button data-section="Відгуки">Відгуки <span>↗</span></button>
+        <button data-contact>Контакти <span>↗</span></button>
+      </nav>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow">Детейлінг студія</p>
+        <h1><strong>Догляд,</strong><span>який відчувається<br>в деталях</span></h1>
+        <p class="hero-description">Повертаємо автомобілю<br>його вигляд та цінність.</p>
+        <div class="hero-actions">
+          <button class="pill" data-contact>Записатися <svg><use href="#arrow"/></svg></button>
+          <a class="text-link" href="#services">Дізнатись більше <span class="tiny-circle"><svg><use href="#arrow"/></svg></span></a>
+        </div>
+      </div>
+      <div class="slide-controls" role="group" aria-label="Оберіть фото автомобіля">
+        <button class="slide-button is-active" data-slide="0" aria-label="Фото 1 — Porsche" aria-pressed="true">01<span></span></button>
+        <button class="slide-button" data-slide="1" aria-label="Фото 2 — BMW" aria-pressed="false">02<span></span></button>
+        <button class="slide-button" data-slide="2" aria-label="Фото 3 — Audi" aria-pressed="false">03</button>
+      </div>
+      <p class="sr-only" id="slide-status" aria-live="polite">Фото 1 з 3 — Porsche</p>
+    </section>
+
+    <section class="services" id="services" aria-labelledby="services-heading">
+      <div class="section-heading">
+        <div><p class="eyebrow">// Послуги</p><h2 id="services-heading">Наші послуги</h2></div>
+        <p class="section-description">Комплексний догляд за вашим автомобілем<br>з використанням якісних матеріалів та перевірених технологій.</p>
+        <button class="text-link all-services">Всі послуги <svg><use href="#arrow-up"/></svg></button>
+      </div>
+      <div class="services-grid">
+        <button class="service-card" data-service="0" aria-label="Дізнатися про хімчистку інтер’єру">
+          <img src="./assets/service-interior.png" alt="Чорні шкіряні сидіння автомобіля" width="1024" height="1536" loading="lazy">
+          <span class="service-number">01</span>
+          <span class="service-content"><span class="service-title">Хімчистка<br>інтер’єру</span><span class="service-description">Чистота та свіжість<br>у кожній деталі</span></span>
+          <span class="card-arrow"><svg><use href="#arrow"/></svg></span>
+        </button>
+        <button class="service-card" data-service="1" aria-label="Дізнатися про полірування кузова">
+          <img src="./assets/service-polish.png" alt="Блиск відполірованого чорного кузова" width="1024" height="1536" loading="lazy">
+          <span class="service-number">02</span>
+          <span class="service-content"><span class="service-title">Полірування<br>кузова</span><span class="service-description">Відновлюємо глибину<br>кольору та блиск</span></span>
+          <span class="card-arrow"><svg><use href="#arrow"/></svg></span>
+        </button>
+        <button class="service-card" data-service="2" aria-label="Дізнатися про захисні покриття">
+          <img src="./assets/service-protection.png" alt="Доглянутий диск BMW з синім гальмівним супортом" width="1024" height="1536" loading="lazy">
+          <span class="service-number">03</span>
+          <span class="service-content"><span class="service-title">Захисні<br>покриття</span><span class="service-description">Довготривалий захист<br>вашого авто</span></span>
+          <span class="card-arrow"><svg><use href="#arrow"/></svg></span>
+        </button>
+        <button class="service-card" data-service="3" aria-label="Дізнатися про відновлення оптики">
+          <img src="./assets/service-lights.png" alt="Прозора оптика та блискуча фара автомобіля" width="1024" height="1536" loading="lazy">
+          <span class="service-number">04</span>
+          <span class="service-content"><span class="service-title">Відновлення<br>оптики</span><span class="service-description">Чітке світло<br>та безпека на дорозі</span></span>
+          <span class="card-arrow"><svg><use href="#arrow"/></svg></span>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="detail-dialog" id="detail-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" aria-label="Закрити вікно"><svg><use href="#close"/></svg></button>
+    <p class="eyebrow">// Car Time 87</p>
+    <h2 id="dialog-title"></h2>
+    <p class="dialog-description"></p>
+    <div class="dialog-services" hidden></div>
+    <a class="pill dialog-call" href="tel:+380994688456">099 468 8456 <svg><use href="#arrow"/></svg></a>
+    <p class="dialog-caption">Зателефонуйте, щоб узгодити послугу та зручний час.</p>
+  </dialog>
+
+  <svg class="svg-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15m-5-5 5 5-5 5"/></symbol>
+    <symbol id="arrow-up" viewBox="0 0 24 24"><path d="m6 18 12-12M6 6h12v12"/></symbol>
+    <symbol id="close" viewBox="0 0 24 24"><path d="m5 5 14 14M19 5 5 19"/></symbol>
+  </svg>
+</body>
+</html>

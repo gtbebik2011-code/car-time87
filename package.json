@@ -1,0 +1,9 @@
+{
+  "name": "car-time87",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "check": "node --check dist/app.js"
+  }
+}
