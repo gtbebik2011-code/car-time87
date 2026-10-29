@@ -90,7 +90,101 @@
         </button>
       </div>
     </section>
+    <section class="works" id="works" aria-labelledby="works-heading">
+      <div class="works-heading">
+        <div><p class="eyebrow">// Наші роботи</p><h2 id="works-heading">Реальні результати</h2></div>
+        <div class="works-actions"><button class="text-link" id="view-works">Дивитись всі роботи <span class="tiny-circle"><svg><use href="#arrow"/></svg></span></button><button class="round-control" id="works-prev" aria-label="Попередні роботи"><svg><use href="#arrow"/></svg></button><button class="round-control" id="works-next" aria-label="Наступні роботи"><svg><use href="#arrow"/></svg></button></div>
+      </div>
+      <div class="works-track" id="works-track">
+        <figure class="comparison work-item" style="--split:50%">
+          <img class="comparison-after" src="./assets/work-after.png" alt="Центральна консоль BMW — після" width="1087" height="1447" loading="lazy">
+          <div class="comparison-before"><img src="./assets/work-before.png" alt="Центральна консоль BMW — до" width="1127" height="1396" loading="lazy"></div>
+          <span class="comparison-label label-before">До</span><span class="comparison-label label-after">Після</span>
+          <div class="comparison-divider"><span>‹<span></span>›</span></div>
+          <input class="comparison-range" type="range" min="0" max="100" value="50" aria-label="Порівняти до та після" aria-valuetext="50% до, 50% після">
+          <figcaption class="work-caption">Оновлення деталей інтер’єру <span>До / Після</span></figcaption>
+        </figure>
+        <button class="work-item work-photo" data-work-image="./assets/hero-porsche.png" data-work-title="Догляд за кузовом" aria-label="Переглянути роботу: догляд за кузовом"><img src="./assets/hero-porsche.png" alt="Блиск сірого Porsche після догляду" width="1672" height="941" loading="lazy"><span class="work-caption">Догляд за кузовом <svg><use href="#arrow-up"/></svg></span></button>
+        <button class="work-item work-photo" data-work-image="./assets/service-lights.png" data-work-title="Увага до кожної деталі" aria-label="Переглянути роботу: увага до кожної деталі"><img src="./assets/service-lights.png" alt="Крупний план оптики автомобіля" width="1024" height="1536" loading="lazy"><span class="work-caption">Увага до кожної деталі <svg><use href="#arrow-up"/></svg></span></button>
+        <button class="work-item work-photo" data-work-image="./assets/hero-bmw.png" data-work-title="Глибина кольору та блиск" aria-label="Переглянути роботу: глибина кольору та блиск"><img src="./assets/hero-bmw.png" alt="Доглянутий чорний BMW у студії" width="1672" height="941" loading="lazy"><span class="work-caption">Глибина кольору та блиск <svg><use href="#arrow-up"/></svg></span></button>
+      </div>
+      <div class="works-footer"><span id="works-count">01 / 04</span><span class="works-progress"><span></span></span><p>Деталі, що змінюють враження.</p></div>
+    </section>
+    <section class="studio" id="about" aria-labelledby="studio-heading">
+      <div class="studio-benefits">
+        <div class="studio-heading"><p class="eyebrow">// Чому обирають нас</p><h2 id="studio-heading">Більше<br>ніж просто мийка</h2></div>
+        <ul class="benefits-list">
+          <li><span class="benefit-icon"><svg><use href="#diamond"/></svg></span><h3>Якісні матеріали</h3><p>Працюємо лише<br>з перевіреними брендами.</p></li>
+          <li><span class="benefit-icon"><svg><use href="#precision"/></svg></span><h3>Досвід і професіоналізм</h3><p>Знаємо, як досягти<br>найкращого результату.</p></li>
+          <li><span class="benefit-icon"><svg><use href="#clock"/></svg></span><h3>Стабільна робота</h3><p>Дотримуємось термінів<br>і цінуємо ваш час.</p></li>
+          <li><span class="benefit-icon"><svg><use href="#star"/></svg></span><h3>Індивідуальний підхід</h3><p>Враховуємо всі побажання<br>та особливості вашого авто.</p></li>
+        </ul>
+      </div>
+      <div class="studio-story">
+        <button class="studio-photo" data-work-image="./assets/about-studio.png" data-work-title="Car Time 87 — наша студія" aria-label="Переглянути фото студії Car Time 87">
+          <img src="./assets/about-studio.png" alt="Чорний BMW біля фірмового логотипа Car Time 87 у детейлінг студії" width="1672" height="941" loading="lazy">
+          <span class="studio-photo-caption"><span class="studio-photo-arrow"><svg><use href="#arrow-up"/></svg></span><span>Ближче до деталей<br>нашої студії</span></span>
+        </button>
+        <div class="studio-copy">
+          <p class="eyebrow">// Про нас</p><h2>Увага <br>до деталей</h2>
+          <p class="studio-description">Car Time 87 — детейлінг студія, де якість і акуратність завжди на першому місці.<br>Ми працюємо з автомобілями, як зі своїми, і цінуємо довіру кожного клієнта.</p>
+          <button class="pill studio-more" aria-expanded="false" aria-controls="studio-details">Більше про нас <svg><use href="#arrow"/></svg></button>
+          <p class="studio-extra" id="studio-details" hidden>Наша увага — у кожній деталі: від чистоти салону до глибини кольору кузова. Підбираємо догляд відповідно до стану автомобіля та ваших побажань. Розкажіть, який результат хочете отримати, — разом оберемо потрібні процедури.</p>
+          <dl class="studio-stats"><div><dt>3+</dt><dd>роки досвіду</dd></div><div><dt>500+</dt><dd>задоволених клієнтів</dd></div><div><dt class="infinity">∞</dt><dd>любов до авто</dd></div></dl>
+        </div>
+      </div>
+    </section>
+    <section class="tips" id="tips" aria-labelledby="tips-heading">
+      <div class="tips-heading">
+        <div><p class="eyebrow">// Корисне</p><h2 id="tips-heading">Рекомендації<br>для клієнтів</h2></div>
+        <div class="tips-actions"><button class="text-link" id="all-articles">Всі статті <svg><use href="#arrow-up"/></svg></button><button class="round-control" id="tips-prev" aria-label="Попередня стаття"><svg><use href="#arrow"/></svg></button><button class="round-control" id="tips-next" aria-label="Наступна стаття"><svg><use href="#arrow"/></svg></button></div>
+      </div>
+      <div class="tips-track" id="tips-track" aria-label="Статті про догляд за автомобілем">
+        <button class="tip-card tip-card-light" data-article="0" aria-label="Читати: Як правильно мити автомобіль взимку?">
+          <img src="./assets/article-wash.png" alt="Автомобіль під час делікатного миття піною" width="1672" height="941" loading="lazy">
+          <span class="tip-content"><span class="tip-category">Догляд</span><span class="tip-title">Як правильно мити<br>автомобіль взимку?</span></span><span class="tip-arrow"><svg><use href="#arrow"/></svg></span>
+        </button>
+        <button class="tip-card" data-article="1" aria-label="Читати: Чому варто наносити керамічне покриття?">
+          <img src="./assets/article-protection.png" alt="Краплі води на доглянутому чорному кузові" width="1672" height="941" loading="lazy">
+          <span class="tip-content"><span class="tip-category">Захист</span><span class="tip-title">Чому варто наносити<br>керамічне покриття?</span></span><span class="tip-arrow"><svg><use href="#arrow"/></svg></span>
+        </button>
+        <button class="tip-card" data-article="2" aria-label="Читати: Як підтримувати чистоту салону?">
+          <img src="./assets/article-interior.png" alt="Очищення шкіряного салону м’якою синьою мікрофіброю" width="1672" height="941" loading="lazy">
+          <span class="tip-content"><span class="tip-category">Інтер’єр</span><span class="tip-title">Як підтримувати<br>чистоту салону?</span></span><span class="tip-arrow"><svg><use href="#arrow"/></svg></span>
+        </button>
+      </div>
+    </section>
+    <section class="reviews" id="reviews" aria-labelledby="reviews-heading">
+      <div class="reviews-heading"><div><p class="eyebrow">// Відгуки</p><h2 id="reviews-heading">Що кажуть наші клієнти</h2></div><div class="reviews-actions"><button class="text-link" id="leave-review">Залишити відгук <span class="tiny-circle"><svg><use href="#arrow"/></svg></span></button><button class="round-control" id="reviews-prev" aria-label="Попередні відгуки"><svg><use href="#arrow"/></svg></button><button class="round-control" id="reviews-next" aria-label="Наступні відгуки"><svg><use href="#arrow"/></svg></button></div></div>
+      <div class="reviews-track" id="reviews-track" aria-label="Відгуки клієнтів">
+        <article class="review-card"><div class="review-author"><span class="review-avatar" aria-hidden="true">О</span><div><h3>Олександр</h3><p class="review-stars" aria-label="5 з 5">★★★★★</p></div></div><p class="review-text">Дуже якісна робота, авто виглядає як нове. Приємні люди і професійний підхід. Рекомендую!</p></article>
+        <article class="review-card"><div class="review-author"><span class="review-avatar" aria-hidden="true">М</span><div><h3>Марія</h3><p class="review-stars" aria-label="5 з 5">★★★★★</p></div></div><p class="review-text">Робила хімчистку салону — результат перевершив очікування. Все чисто, акуратно і вчасно.</p></article>
+        <article class="review-card"><div class="review-author"><span class="review-avatar" aria-hidden="true">В</span><div><h3>Владислав</h3><p class="review-stars" aria-label="5 з 5">★★★★★</p></div></div><p class="review-text">Полірування + кераміка, все на високому рівні. Видно, що знають свою справу.</p></article>
+        <article class="review-card"><div class="review-author"><span class="review-avatar" aria-hidden="true">І</span><div><h3>Ірина</h3><p class="review-stars" aria-label="5 з 5">★★★★★</p></div></div><p class="review-text">Дуже задоволена!</p></article>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer" id="contacts">
+    <div class="footer-top"><a class="footer-brand" href="#" aria-label="Car Time 87 — до початку"><img src="./assets/logo.svg" alt="Car Time 87" width="170" height="96"></a><nav class="footer-nav" aria-label="Навігація у футері"><a href="#services">Послуги</a><a href="#works">Наші роботи</a><a href="#about">Про нас</a><a href="#tips">Корисне</a><a href="#reviews">Відгуки</a><button data-contact>Контакти</button></nav><a class="footer-phone" href="tel:+380994688456"><svg><use href="#phone"/></svg>099 468 8456</a></div>
+    <div class="footer-bottom"><p>© Car Time 87. Всі права захищені.</p><a href="#">До початку <svg><use href="#arrow-up"/></svg></a></div>
+  </footer>
+
+  <dialog class="review-dialog" id="review-dialog" aria-labelledby="review-dialog-title">
+    <button class="review-close" aria-label="Закрити форму відгуку"><svg><use href="#close"/></svg></button>
+    <p class="eyebrow">// Ваші враження</p><h2 id="review-dialog-title">Залишити відгук</h2>
+    <p class="review-form-note">Відгук збережеться лише у цьому браузері та буде видимий вам.</p>
+    <form id="review-form"><label>Ваше ім’я<input name="name" autocomplete="given-name" required maxlength="60" placeholder="Як до вас звертатись?"></label><label>Оцінка<select name="rating"><option value="5">★★★★★ — 5</option><option value="4">★★★★☆ — 4</option><option value="3">★★★☆☆ — 3</option><option value="2">★★☆☆☆ — 2</option><option value="1">★☆☆☆☆ — 1</option></select></label><label>Ваш відгук<textarea name="text" required minlength="5" maxlength="600" rows="4" placeholder="Поділіться враженнями про догляд за вашим авто"></textarea></label><button class="pill" type="submit">Зберегти відгук <svg><use href="#arrow"/></svg></button><p class="review-form-status" role="status"></p></form>
+  </dialog>
+  <p class="review-toast" role="status" hidden>Ваш відгук збережено в цьому браузері. Дякуємо!</p>
+
+  <dialog class="article-dialog" id="article-dialog" aria-labelledby="article-title">
+    <button class="article-close" aria-label="Закрити статтю"><svg><use href="#close"/></svg></button>
+    <div class="article-cover"><img alt=""><span class="tip-category"></span></div>
+    <div class="article-body"><p class="eyebrow">// Корисне · Car Time 87</p><h2 id="article-title"></h2><div class="article-text"></div><div class="article-list" hidden></div><button class="text-link article-back">До всіх статей <svg><use href="#arrow"/></svg></button></div>
+  </dialog>
+
+  <dialog class="work-lightbox" id="work-lightbox" aria-label="Фото нашої роботи"><button class="lightbox-close" aria-label="Закрити фото"><svg><use href="#close"/></svg></button><img alt=""><p></p></dialog>
 
   <dialog class="detail-dialog" id="detail-dialog" aria-labelledby="dialog-title">
     <button class="dialog-close" aria-label="Закрити вікно"><svg><use href="#close"/></svg></button>
@@ -106,6 +200,11 @@
     <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15m-5-5 5 5-5 5"/></symbol>
     <symbol id="arrow-up" viewBox="0 0 24 24"><path d="m6 18 12-12M6 6h12v12"/></symbol>
     <symbol id="close" viewBox="0 0 24 24"><path d="m5 5 14 14M19 5 5 19"/></symbol>
+    <symbol id="phone" viewBox="0 0 24 24"><path d="m5 3 4 1 1 5-3 2c1.5 3 3 4.5 6 6l2-3 5 1 1 4c-1 2-3 3-5 2C9 19 5 15 3 8c-1-2 0-4 2-5Z"/></symbol>
+    <symbol id="diamond" viewBox="0 0 24 24"><path d="m3 8 4-5h10l4 5-9 13L3 8Zm0 0h18M7 3l2 5 3 13 3-13 2-5M9 8l3-5 3 5"/></symbol>
+    <symbol id="precision" viewBox="0 0 24 24"><path d="m10 3 2-1 2 1 1 2h3l1 3 2 2v4l-2 2-1 3h-3l-1 2h-4l-1-2H6l-1-3-2-2v-4l2-2 1-3h3l1-2Z"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1"/></symbol>
+    <symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="star" viewBox="0 0 24 24"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9L12 3Z"/></symbol>
   </svg>
 </body>
 </html>

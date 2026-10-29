@@ -3,3 +3,5 @@ node_modules/
 .openai/*.tgz
 .openai/workflow-state.json
 *.log
+
+.tools/
