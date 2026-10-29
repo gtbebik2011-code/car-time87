@@ -17,3 +17,4 @@
 @media(max-width:370px){.header-book{padding:0 14px}.header-book svg{display:none}.hero{height:760px}.hero-content{top:141px}h1 strong{font-size:50px}.hero-actions{gap:13px}.hero-actions .pill{padding:0 19px}.hero-actions .text-link{font-size:10px}.service-title{font-size:16px}.service-description{font-size:10px}.service-content{left:13px}.card-arrow{right:11px;width:25px;height:25px;bottom:75px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 @media(max-width:700px){.service-card .card-arrow{top:18px;bottom:auto}}
+@media(min-width:701px) and (max-width:1200px){.hero-eyebrow{font-size:1.25vw;margin-bottom:.8vw}h1 strong{margin-bottom:.3vw}.hero-description{font-size:1.32vw;margin-top:1.65vw}.hero-actions{margin-top:2.36vw}.hero-actions .pill{min-height:4.15vw}.slide-controls{bottom:1.8vw}}
